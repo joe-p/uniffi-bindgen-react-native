@@ -80,7 +80,7 @@ macro_rules! impl_code_type_for_primitive {
 
 impl_code_type_for_primitive!(BooleanCodeType, "Bool", "boolean");
 impl_code_type_for_primitive!(StringCodeType, "String", "string");
-impl_code_type_for_primitive!(BytesCodeType, "ArrayBuffer", "ArrayBuffer");
+impl_code_type_for_primitive!(BytesCodeType, "ArrayBuffer", "Uint8Array");
 impl_code_type_for_primitive!(Int8CodeType, "Int8", "/*i8*/number");
 impl_code_type_for_primitive!(Int16CodeType, "Int16", "/*i16*/number");
 impl_code_type_for_primitive!(Int32CodeType, "Int32", "/*i32*/number");
